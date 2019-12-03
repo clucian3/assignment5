@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Tina's Website</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" href="css/flexbox.css">
+
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="index.html"><img src="images/nyglogo.png" alt="giants logo" height="100"></a>
+            <a href="depthchart.html">Unoffical Depth Chart</a>
+            <a href="pictures.html">Saquon Pictures</a>
+            <a href="newsletter.html">Saquon Newsletter</a>
+        </nav>
+    </header>
+
+    <main>
+        <form action="results.html">
+
+            <div class="centered">
+                <form action="results.html">
+                </form>
+            </div>
+            <p>
+                <label for="firstname">First Name: </label>
+                <input type="text" name="firstname" id="firstname">
+            </p>
+            <p>
+                <label for="nickname">Nickname: </label>
+                <input type="text" name="nickname" id="nickname">
+            </p>
+            <p>
+                <label for="email">Email: </label>
+                <input type="text" name="email" id="email">
+            </p>
+            <p>
+                <label for="how-big-of-a-fan">How Many Years Have You Been a Fanatic?</label>
+                <select name="how-you-heard" id="how-you-heard" multiple>
+                    <option value="year1">One Year-Three Years</option>
+                    <option value="year2">FourYears-Five Years</option>
+                    <option value="year3">Six Years-Seven Years</option>
+                    <option value="year4">Eight years-TEN Years</option>
+                    <option value="year5">TEN PLUS (I am unstoppable)</option>
+                </select>
+            </p>
+            <p>
+                <label for="funfact">One fun fact about our boy #26</label>
+                <textarea name="comments" id="comments" rows="2" cols="50"></textarea>
+            </p>
+
+            <div class="radio-buttons">
+                <label>Would you like to join our newsletter?</label>
+                <input type="radio" name="join-newsletter" value="Yes" checked>Obviously, let me into Saquon's life
+                <input type="radio" name="join-newsletter" value="No">No, I am secretly a Dallas fan
+            </div>
+            <br>
+
+            <label>What other players do you enjoy?</label>
+            <div class="checkbox-group">
+                <p class="checkbox-item"><input type="checkbox" name="player" value="eli">Eli Manning</p>
+                <p class="checkbox-item"><input type="checkbox" name="player" value="peppers">Jabrill Peppers</p>
+                <p class="checkbox-item"><input type="checkbox" name="player" value="shepard">Sterling Shepard</p>
+            </div>
+
+            <br>
+            <p>
+                <label></label>
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset">
+            </p>
+        </form>
+    </main>
+
+    <footer>
+
+        &copy; New York Football Giants
+        <footer style="color:red"> saquonbarkleybeast26@gmail.com</footer>
+    </footer>
+
+</body></html>
