@@ -1,8 +1,9 @@
 body {
-    background-image: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url(../images/background.jpg);
-    color: #f248a4;
+    background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../images/background.jpg);
+    background-size: cover;
+    /*    background-position: center;*/
+    color: dodgerblue;
     background-color: #add8e6;
-
     font-family: "Helvetica";
 }
 
@@ -38,13 +39,23 @@ h2 {
     color: aliceblue;
 }
 
+a {
+    color: azure;
+    font-size: 1.3em;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+a:hover {
+    color: #111;
+}
+
 .giants-blue {
     color: blue;
 }
 
 .giants-font-big {
     font-size: 30px;
-
 }
 
 .giants-font-heavy {
@@ -59,6 +70,7 @@ body ol,
 body ul {
     /*    background-color: transparent;*/
 }
+
 /*
 main {
     display: flex;
@@ -67,11 +79,12 @@ main {
     justify-content: center;
 }
 */
-.centered{
+.centered {
     display: flex;
-justify-content: center;
+    justify-content: center;
     align-items: center;
 }
+
 .centered {
 
     margin-left: 40px;
